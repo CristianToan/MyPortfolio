@@ -1,0 +1,170 @@
+:root {
+	--bg-light-horizonal: linear-gradient(90deg,
+			transparent 0%,
+			#0A9C3A 35%,
+			#077036 55%,
+			#054812 70%,
+			transparent 100%);
+	--bg-light-vertical: linear-gradient(180deg,
+			transparent 0%,
+			#0A9C3A 35%,
+			#077036 55%,
+			#054812 70%,
+			transparent 100%);
+}
+
+.border-gold-radial-img-l::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	width: 60%;
+	height: 1px;
+	background: var(--bg-light-horizonal);
+	background-size: 200% 100%;
+	animation: led-top 3s linear infinite;
+
+	pointer-events: none;
+}
+
+.border-gold-radial-img-l::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+
+	width: 1px;
+	height: 68%;
+
+	background: var(--bg-light-vertical);
+
+	background-size: 100% 200%;
+	animation: led-left 3s linear infinite;
+	pointer-events: none;
+}
+
+.border-gold-radial-img-r::before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 5;
+
+	width: 60%;
+	height: 1px;
+
+	background: var(--bg-light-horizonal);
+	background-size: 200% 100%;
+	animation: led-bottom 3s linear infinite;
+
+	pointer-events: none;
+}
+
+.border-gold-radial-img-r::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 5;
+
+	width: 1px;
+	height: 68%;
+
+	background: var(--bg-light-vertical);
+
+	background-size: 100% 200%;
+	animation: led-right 3s linear infinite;
+
+	pointer-events: none;
+}
+
+
+
+
+.border-gold-led::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 60%;
+	height: 1px;
+
+	background: var(--bg-light-horizonal);
+	background-size: 200% 100%;
+	animation: led-top 3s linear infinite;
+
+	pointer-events: none;
+}
+
+.border-gold-led::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+
+	width: 1px;
+	height: 68%;
+
+	background: var(--bg-light-vertical);
+	background-size: 100% 200%;
+	animation: led-left 3s linear infinite;
+
+	pointer-events: none;
+}
+
+@keyframes led-bottom {
+	from {
+		background-position: 200% 0;
+	}
+
+	to {
+		background-position: 0% 0;
+	}
+}
+
+@keyframes led-right {
+	from {
+		background-position: 0 200%;
+	}
+
+	to {
+		background-position: 0 0%;
+	}
+}
+
+@keyframes led-top {
+	from {
+		background-position: 0% 0;
+	}
+
+	to {
+		background-position: 200% 0;
+	}
+}
+
+@keyframes led-left {
+	from {
+		background-position: 0 0;
+	}
+
+	to {
+		background-position: 0 200%;
+	}
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    rgba(255,255,255,0.2),
+    rgba(255,255,255,0.4)
+  );
+  border-radius: 999px;
+}

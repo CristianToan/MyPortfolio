@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --font-body: "Montserrat";
+  --font-abhaya:  "Abhaya Libre", serif;
+  --font-lato:  "Lato", sans-serif;;
+  --background-image-title-portfolio: linear-gradient(295.38deg, #077036 4.89%, #054812 50.44%, #0A9C3A 95.06%);
+
+  --background-image-title: linear-gradient(90deg, rgba(9, 11, 14, 0.81) 19.79%, rgba(9, 11, 14, 0) 97.4%);
+  --background-color-body: #050607;
+  --background-color-main: #101822;
+  --background-color-secondary: #111317;
+  --text-md: 16px;
+  --text-1xl: 22px;
+  --text-xxl: 28px;
+  --text-3xxl: 64px;
+  --gap-4xl: 43px;
+  --color-number: #077036;
+  --color-tile-box: #C6C6C6;
+  --color-button: #0A0D11;
+  --border-color-main: #959595;
+  --border-color-secondary: #101822;
+  --border-image-radial-gold: radial-gradient(
+    51.16% 71.74% at 1.33% 1.78%,
+    #FFE195 0%,
+    rgba(242,187,90,0.876812) 17.71%,
+    rgba(191,122,0,0.75) 35.94%,
+    rgba(191,122,0,0) 100%,
+    rgba(15,18,24,0) 100%
+  );
+}
+
+body {
+  font-family: var(--font-body);
+  @apply text-white bg-body font-normal;
+}
+
+@layer utilities {
+  .ff-abhaya {
+    font-family: var(--font-abhaya);
+  }
+  .ff-lato{
+    font-family: var(--font-lato);
+  }
+  .bg-gold-light {
+    background: linear-gradient(
+      121.88deg,
+      rgba(10, 156, 58, 0.45) 0%,
+      rgba(5, 72, 18, 0) 47.28%
+    );
+    background-blend-mode: lighten;
+    border-radius: 0;
+  }
+  .border-right-gold-radial {
+    border: 1px solid transparent;
+    border-image-slice: 1;
+    border-image-source: radial-gradient(41.77% 70.49% at 100.71% 100.77%, #0A9C3A 0%, #077036 17.71%, #054812 35.94%, rgba(3, 42, 0, 0.24015) 85.1%, rgba(191, 122, 0, 0) 100%, rgba(15, 18, 24, 0) 100%) ;
+  }
+
+}
+
