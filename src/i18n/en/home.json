@@ -46,7 +46,13 @@
     "title_download": "Download Career Profile",
     "desc_download" : "Thank you for taking the time to review my application. I <br> look forward to the opportunity to discuss and collaborate with you in the future.",
     "cv_img": "images/cv_en.png",
-    "cv_file_fullstack": "/images/PhamVanToan_FullStack.pdf"
+    "cv_file_fullstack": "/images/PHAMVANTOAN_FULLSTACK_EN.pdf",
+    "cv_file_be": "/images/PHAMVANTOAN_BE_EN.pdf",
+    "cv_file_fe": "/images/PHAMVANTOAN_FE_EN.pdf",
+    "cv_file_node": "/images/PHAMVANTOAN_NODE_EN.pdf",
+    "cv_file_php": "/images/PHAMVANTOAN_PHP_EN.pdf",
+    "cv_file_react": "/images/PHAMVANTOAN_REACT_EN.pdf",
+    "cv_file_wp": "/images/PHAMVANTOAN_WP_EN.pdf"
   },
   "footer":{
     "title": "Let’s Connect",

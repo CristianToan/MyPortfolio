@@ -47,7 +47,13 @@
     "title_download": "Download Career Profile",
     "desc_download" : "Cảm ơn Anh/Chị đã dành thời gian quan tâm và xem xét hồ sơ của tôi. Tôi <br> mong có cơ hội được trao đổi và hợp tác trong thời gian tới.",
     "cv_img": "/images/cv.png",
-    "cv_file_fullstack": "/images/PhamVanToan_FullStack.pdf"
+    "cv_file_fullstack": "/images/PhamVanToan_FullStack.pdf",
+    "cv_file_be": "/images/PHAMVANTOAN_BE.pdf",
+    "cv_file_fe": "/images/PHAMVANTOAN_FE.pdf",
+    "cv_file_node": "/images/PHAMVANTOAN_NODE.pdf",
+    "cv_file_php": "/images/PHAMVANTOAN_PHP.pdf",
+    "cv_file_react": "/images/PHAMVANTOAN_REACT.pdf",
+    "cv_file_wp": "/images/PHAMVANTOAN_WP.pdf"
   },
   "footer":{
     "title": "Liên hệ với tôi",

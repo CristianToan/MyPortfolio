@@ -16,7 +16,7 @@ const ProfileSection = ({ id }: { id: string }) => {
       : PROFILE_MAP[DEFAULT_TYPE]
 
   return (
-	<section id={id} className="pb-15.25 scroll-mt-20.75">
+	<section id={id} className="pb-4 scroll-mt-20.75">
 	  <div className="container mx-auto px-4">
 		<h2 className="uppercase bg-title-portfolio bg-clip-text text-transparent font-bold text-xl md:text-xxl tracking-[3.5%] mb-4 lg:mb-8.5">{t("home.profile.title_section")}</h2>
 				<div className="grid grid-cols-12 gap-x-4 2xl:gap-x-35.75 items-center">

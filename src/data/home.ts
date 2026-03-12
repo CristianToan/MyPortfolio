@@ -239,18 +239,30 @@ export const PROFILE_MAP = {
     image: 'home.profile.cv_img',
     link_cv: 'home.profile.cv_file_fullstack',  
   },
-  3: {
+  17: {
     image: 'home.profile.cv_img',
-    link_cv: 'home.profile.cv_file_fullstack',
+    link_cv: 'home.profile.cv_file_be',
   },
-  5: {
+  79: {
     image: 'home.profile.cv_img',
-    link_cv: 'home.profile.cv_file_fullstack',
+    link_cv: 'home.profile.cv_file_fe',
   },
-  7: {
+  6: {
     image: 'home.profile.cv_img',
-    link_cv: 'home.profile.cv_file_fullstack',
+    link_cv: 'home.profile.cv_file_node',
   },
+  68:{
+    image: 'home.profile.cv_img',
+    link_cv: 'home.profile.cv_file_php',
+  },
+  86:{
+    image: 'home.profile.cv_img',
+    link_cv: 'home.profile.cv_file_react',
+  },
+  8:{
+    image: 'home.profile.cv_img',
+    link_cv: 'home.profile.cv_file_wp',
+  }
 } as const
 
 export const DEFAULT_TYPE = 1
