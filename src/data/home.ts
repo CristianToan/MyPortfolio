@@ -231,6 +231,48 @@ export const LIST_PROJECTS: TProject[] = [
         image: '/images/course.webp',
         category_ids: [4],
         detail:'home.project.detail_9'
+    },
+    {
+        id: 10,
+        name_project: 'home.project.name_10',
+        image: '/images/portfolio.webp',
+        category_ids: [1],
+        detail:'home.project.detail_10'
+    },
+    {
+        id: 11,
+        name_project: 'home.project.name_11',
+        image: '/images/forexco.webp',
+        category_ids: [4],
+        detail:'home.project.detail_11'
+    },
+    {
+        id: 12,
+        name_project: 'home.project.name_12',
+        image: '/images/keli.webp',
+        category_ids: [4],
+        detail:'home.project.detail_12'
+    },
+    {
+        id: 13,
+        name_project: 'home.project.name_13',
+        image: '/images/ibtc.webp',
+        category_ids: [4],
+        detail:'home.project.detail_13'
+    },
+    {
+        id: 14,
+        name_project: 'home.project.name_14',
+        image: '/images/shinko.webp',
+        category_ids: [4],
+        detail:'home.project.detail_14'
+    },
+    {
+        id: 15,
+        name_project: 'home.project.name_15',
+        image: '/images/v-startup.webp',
+        category_ids: [4],
+        detail:'home.project.detail_15'
     }
 ]
 
