@@ -273,6 +273,27 @@ export const LIST_PROJECTS: TProject[] = [
         image: '/images/v-startup.webp',
         category_ids: [4],
         detail:'home.project.detail_15'
+    },
+    {
+        id: 16,
+        name_project: 'home.project.name_16',
+        image: '/images/san-go.webp',
+        category_ids: [4],
+        detail:'home.project.detail_16'
+    },
+    {
+        id: 17,
+        name_project: 'home.project.name_17',
+        image: '/images/phu-tung.webp',
+        category_ids: [4],
+        detail:'home.project.detail_17'
+    },
+    {
+        id: 18,
+        name_project: 'home.project.name_18',
+        image: '/images/fan.webp',
+        category_ids: [4],
+        detail:'home.project.detail_18'
     }
 ]
 
